@@ -1,0 +1,46 @@
+/* Write your CSS here */
+the-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient (to right, #fa7257, #fc63a7);
+  height: 100vh;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 767px) {
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#fddddb;
+  height:50px;
+  width:50px;
+  border-radius: 10px;
+  }
+.butt {
+  display: flex;
+  flex-direction: column;
+}
+.heading{
+  font-size:25px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.button{
+  padding:5px;
+  color:#dd1264;
+}
